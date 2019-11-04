@@ -6,9 +6,9 @@
 
 プログラムを実行するためにインストールする必要があるもの。
 
-- PHP - 7.3.x (このバージョン以上)
-- Composer - 1.9.x (このバージョン以上)
-- XAMPP
+- [PHP](https://www.php.net/downloads.php) - 7.3.x (このバージョン以上) 
+- [Composer](https://getcomposer.org/download/) - 1.9.x (このバージョン以上)
+- [XAMPP](https://www.apachefriends.org/index.html)
 
 ## 設置
 
@@ -40,6 +40,16 @@ composer require phpmailer/phpmailer
 
 このコードを実行して、登録後にメールの送信を処理するPHPMailerをインストールします。
 
-## 技術説明
+### 実行説明
 
-This program is for 
+まずはxamppディレクトリのhtdocsフォルダーにリポジトリーをクローンします。
+
+次に、xampp-controlを開き、「Apache」と「MySQL」を起動します。
+
+その後、同じディレクトリでターミナルを開いて、PHPMailerをインストールします。
+```composer
+composer require phpmailer/phpmailer
+```
+ブラウザを開き、`localhost/registrationtest/view`にアクセスすると、Webサイトが表示されます。
+
+以上
