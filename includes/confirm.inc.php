@@ -24,6 +24,10 @@ if (isset($_POST['confirm'])) {
         header("Location: ../view/index.php?error=invalidname&email=".$_SESSION['email']);
         exit();
     }
+    elseif (strlen($_SESSION['name']) >= 160) {
+        header("Location: ../view/index.php?error=invalidname&email=".$_SESSION['email']);
+        exit();
+    }
     else {
         header("Location: ../view/confirm.php");
         exit();
