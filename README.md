@@ -35,7 +35,7 @@ email TINYTEXT NOT NULL
 最初に、プロジェクトディレクトリからターミナルを開きます。
 
 ```composer
-composer require phpmailer/phpmailer
+composer install
 ```
 
 このコードを実行して、登録後にメールの送信を処理するPHPMailerをインストールします。
@@ -48,7 +48,7 @@ composer require phpmailer/phpmailer
 
 その後、同じディレクトリでターミナルを開いて、PHPMailerをインストールします。
 ```composer
-composer require phpmailer/phpmailer
+composer install
 ```
 ブラウザを開き、`localhost/registrationtest/view`にアクセスすると、Webサイトが表示されます。
 
