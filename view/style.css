@@ -1,0 +1,38 @@
+.signup-container {
+    height: 100vh;
+    width: 100%;
+}
+
+.signup-form {
+    max-width: 100%;
+    width: 370px;
+    padding: 15px;
+    margin: auto;
+}
+
+.done-form {
+    height: 362px;
+    width: 370px;
+    padding: 6em 1em;
+}
+
+.message {
+    font-size: 15px;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+.warning {
+    font-size: 13px;
+}
