@@ -22,6 +22,9 @@
                             if ($_GET['error'] == "invalidname" || $_GET['error'] == "invalidemailname") {
                                 echo '<p class="text-danger warning">氏名を正しく入力してください</p>';
                                 }
+                            elseif ($_GET['error'] == "strlen") {
+                                echo '<p class="text-danger warning">氏名が長すぎます</p>';
+                                }
                             }
                         ?>
                     </div>
